@@ -16,8 +16,8 @@ the level falls below or rises above a threshold. More information regarding thr
 
 Pay attention! Due to the limited data streams it is not possible to stream sound. The sensor sends the sound level at regular intervals, or when a preset threshold value has been exceeded.
 
-Pay attention! Due to the manner in which sound levels are calculated, the measured sound level is always at least 70 dB. 
-Therefore it does not make sense to try to measure 'quiet' sounds.
+Pay attention! Due to the manner in which sound levels are calculated, the measured sound level is always at least 50 dB. 
+Therefore it does not make sense to try to measure 'quiet' sounds since the signals originatin from the microphone and amplifer circuit will be too small for the analog to digital converter.
 It is also not allowed to set thresholds lower than 75 dB, as this will lead to constant data transmission, which consume a lot of power and will drain the battery.
 
 ## Applications:
